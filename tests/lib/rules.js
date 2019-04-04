@@ -11,7 +11,7 @@
 
 const assert = require("chai").assert,
     Rules = require("../../lib/rules"),
-    Linter = require("../../lib/linter");
+    { Linter } = require("../../lib/linter");
 
 //------------------------------------------------------------------------------
 // Tests
